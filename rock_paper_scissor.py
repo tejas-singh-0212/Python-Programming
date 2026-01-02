@@ -47,9 +47,11 @@ elif ((user_choice == "rock" and comp_choice == "scissor") or (user_choice == "p
     print(f"Computer chose: {comp_choice}")
     print_choice(comp_choice)
     print("Congratulation!!\nYou WON!!!")
-else:
+elif ((comp_choice == "rock" and user_choice == "scissor") or (comp_choice == "paper" and user_choice == "rock") or (comp_choice == "scissor" and user_choice == "paper")):
     print(f"You chose: {user_choice}")
     print_choice(user_choice)
     print(f"Computer chose: {comp_choice}")
     print_choice(comp_choice)
     print("Computer won")
+else:
+    print("Invalid choice!!\nYou LOSE!!")
