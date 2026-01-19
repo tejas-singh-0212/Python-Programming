@@ -24,7 +24,7 @@ def calculate_score(score_list):
     """
     Takes a list of cards and returns the score calculated
     """
-    if sum(score_list) == 2 and len(score_list) == 2:
+    if sum(score_list) == 21 and len(score_list) == 2:
         return 0
 
     if 11 in score_list and sum(score_list) > 21:
@@ -80,3 +80,5 @@ while input("Do you want to play a game of blackjack? Type \'y\' or \'n\': ").lo
     os.system('cls')
     print(logo)
     play_game()
+else:
+    print("Exiting Game")
