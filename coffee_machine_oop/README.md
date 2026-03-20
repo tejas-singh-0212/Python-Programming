@@ -1,21 +1,27 @@
-## ☕ Coffee Machine (OOP)
+## ☕ Coffee Machine Simulator (OOP)
 
-A simple Python project that simulates a coffee machine using Object-Oriented Programming concepts.
+A command-line based coffee machine simulation built using Object-Oriented Programming in Python.  
+The project models real-world coffee machine operations with modular class design.
 
-### Features
-- Select drinks (espresso, latte, cappuccino)
-- Resource management (water, milk, coffee)
-- Coin-based payment system
-- Generates reports of current resources
+### Functionality
+- Select drinks from a predefined menu (espresso, latte, cappuccino)
+- Check and manage available resources (water, milk, coffee)
+- Process coin-based payments and validate transactions
+- Generate reports for current resource status and earnings
 
-### Concepts Used
-- Classes & Objects
-- Encapsulation
-- Modular code structure
+### Project Structure
+- `Menu` & `MenuItem` → Handle drink options and ingredients
+- `CoffeeMaker` → Manages resources and prepares drinks
+- `MoneyMachine` → Handles payment processing and profit tracking
+- `main.py` → Controls user interaction and program flow
+
+### Concepts Applied
+- Object-Oriented Programming (OOP)
+- Class interaction and modular design
+- Separation of concerns
+- Real-world system simulation
 
 ### How to Run
-1. Make sure Python is installed
-2. Run the main file:
-   ```bash
-   python main.py
-   ```
+```bash
+python main.py
+```
