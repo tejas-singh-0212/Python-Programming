@@ -75,3 +75,5 @@ python <filename>.py
 cd <sub-module-folder>
 python main.py
 ```
+
+Author: <br> Tejas Singh
