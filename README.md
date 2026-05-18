@@ -27,7 +27,6 @@ This repository contains multiple mini-projects, each focused on applying Python
 | `blackjack.py` | Classic casino card game implementation |
 | `caesar_cipher.py` | Encryption/decryption by shifting alphabet characters |
 | `calculator.py` | Command-line calculator |
-| `gui_calculator.py` | GUI calculator with Tkinter |
 | `coffee_machine.py` | Coffee machine simulation (procedural) |
 | `days_in_month.py` | Days calculation for any month |
 | `encoder_decoder.py` | Text encoding and decoding utility |
@@ -44,6 +43,13 @@ This repository contains multiple mini-projects, each focused on applying Python
 | `rock_paper_scissor.py` | Rock-Paper-Scissors game |
 | `secret_auction.py` | Secret auction bidding system |
 
+### GUI (Tkinter) Projects
+
+| Project | Description |
+|---------|-------------|
+| `GUI (Tkinter)/tic-tac-toe.py` | Classic Tic-Tac-Toe game with graphical interface |
+| `GUI (Tkinter)/gui_calculator.py` | GUI calculator with Tkinter widgets |
+
 ---
 
 ## Concepts Covered
@@ -55,6 +61,7 @@ This repository contains multiple mini-projects, each focused on applying Python
 - String manipulation and encryption basics
 - User input handling and control flow
 - Command-line application development
+- GUI development with Tkinter
 - Data structures and algorithms
 - File handling and data management
 
@@ -75,6 +82,9 @@ python <filename>.py
 # Sub-module projects
 cd <sub-module-folder>
 python main.py
+
+# GUI projects
+python "GUI (Tkinter)/<filename>.py"
 ```
 
 Author: <br> Tejas Singh
